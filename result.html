@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+
+        }
+        .container {
+            width: 300px;
+            margin: 0 auto;
+            padding-top: 50px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+        }
+        .form-group button {
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+            border: 1px solid black;
+            padding: 12px 34px;
+            font-size: 13px;
+            background: transparent;
+            position: relative;
+            cursor: pointer;
+            
+        }
+        .form-group button:hover {
+            color: white;
+            border: 1px solid #f44336;
+            background: #f44336;
+            transition: 1s;        
+        }
+        
+    </style>
+</head>
+<body>
+    <section class="Sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="blog.htm">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="result.html">RESULT</a></li>
+                    <li><a href="index1.html">Game</a></li>
+                    <a href="login.html"><button class="hero-btn" >Login</button></a>
+
+                </ul>
+                
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1>Anual Result of 2024</h1>
+
+        
+
+    </section>
+
+
+    <div class="container">
+        <form action="/submit_login" method="post">
+            <div class="form-group">
+                <label for="name"><b>Name</b></label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="roll_number"><b>Roll Number</b></label>
+                <input type="text" id="roll_number" name="roll_number" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Get Result</button>
+            </div>
+        </form>
+    </div>
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Elevator School is a unique educational institution that stands out for its innovative approach to learning. Unlike traditional schools, Elevator School takes a vertical approach, both metaphorically and literally. Students embark on a journey of knowledge and self-discovery akin to riding an elevator, where each floor represents a new level of understanding and skill acquisition. The curriculum is designed to foster critical thinking, creativity, and adaptability, preparing students for the rapidly evolving challenges of the modern world. Classes are structured to encourage collaboration and hands-on experiential learning, mirroring the dynamic nature of real-life scenarios.</p>
+    
+        <div class="icon">
+            <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook" ></i></a>
+    
+            <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" ></i>
+            </a>
+    
+            <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram" ></i></a>
+    
+            <a href="http://www.youtube.com" target="_blank" rel="noopener noreferrer"> <i class="fa fa-youtube-play" ></i>
+            </a>
+            
+    
+            <p>Made with <i class="fa fa-heart-o " ></i> by Elevators</p>
+        </div>
+    </section>
+
+
+    <script>
+        document.querySelector('form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const name = document.getElementById('name').value;
+            const rollNumber = document.getElementById('roll_number').value;
+            // class play group
+
+            if (rollNumber === '000621') {
+                window.location.href = '/PG/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '000622') {
+                window.location.href = '/PG/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '000623') {
+                window.location.href = '/PG/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '000624') {
+                window.location.href = '/PG/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '000625') {
+                window.location.href = '/PG/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '000626') {
+                window.location.href = '/PG/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '000627') {
+                window.location.href = '/PG/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '000628') {
+                window.location.href = '/PG/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '000629') {
+                window.location.href = '/PG/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '000630') {
+                window.location.href = '/PG/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '000631') {
+                window.location.href = '/PG/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '000632') {
+                window.location.href = '/PG/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '000633') {
+                window.location.href = '/PG/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '000634') {
+                window.location.href = '/PG/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '000635') {
+                window.location.href = '/PG/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '000636') {
+                window.location.href = '/PG/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '000637') {
+                window.location.href = '/PG/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '000638') {
+                window.location.href = '/PG/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '000639') {
+                window.location.href = '/PG/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '000640') {
+                window.location.href = '/PG/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '000641') {
+                window.location.href = '/PG/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+
+            // class Nussery
+
+            else if (rollNumber === '001621') {
+                window.location.href = '/Nussery/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '001622') {
+                window.location.href = '/Nussery/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '001623') {
+                window.location.href = '/Nussery/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '001624') {
+                window.location.href = '/Nussery/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '001625') {
+                window.location.href = '/Nussery/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '001626') {
+                window.location.href = '/Nussery/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '001627') {
+                window.location.href = '/Nussery/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '001628') {
+                window.location.href = '/Nussery/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '001629') {
+                window.location.href = '/Nussery/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '001630') {
+                window.location.href = '/Nussery/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '001631') {
+                window.location.href = '/Nussery/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '001632') {
+                window.location.href = '/Nussery/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '001633') {
+                window.location.href = '/Nussery/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '001634') {
+                window.location.href = '/Nussery/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '001635') {
+                window.location.href = '/Nussery/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '001636') {
+                window.location.href = '/Nussery/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '001637') {
+                window.location.href = '/Nussery/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '001638') {
+                window.location.href = '/Nussery/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '001639') {
+                window.location.href = '/Nussery/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '001640') {
+                window.location.href = '/Nussery/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '001641') {
+                window.location.href = '/Nussery/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+
+            // class Prep
+
+            else if (rollNumber === '021621') {
+                window.location.href = '/prep/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '021622') {
+                window.location.href = '/prep/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '021623') {
+                window.location.href = '/prep/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '021624') {
+                window.location.href = '/prep/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '021625') {
+                window.location.href = '/prep/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '021626') {
+                window.location.href = '/prep/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '021627') {
+                window.location.href = '/prep/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '021628') {
+                window.location.href = '/prep/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '021629') {
+                window.location.href = '/prep/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '021630') {
+                window.location.href = '/prep/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '021631') {
+                window.location.href = '/prep/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '021632') {
+                window.location.href = '/prep/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '021633') {
+                window.location.href = '/prep/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '021634') {
+                window.location.href = '/prep/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '021635') {
+                window.location.href = '/prep/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '021636') {
+                window.location.href = '/prep/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '021637') {
+                window.location.href = '/prep/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '021638') {
+                window.location.href = '/prep/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '021639') {
+                window.location.href = '/prep/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            // class one
+
+
+            else if (rollNumber === '121621') {
+                window.location.href = '/one/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '121622') {
+                window.location.href = '/one/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '121623') {
+                window.location.href = '/one/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '121624') {
+                window.location.href = '/one/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '121625') {
+                window.location.href = '/one/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '121626') {
+                window.location.href = '/one/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '121627') {
+                window.location.href = '/one/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '121628') {
+                window.location.href = '/one/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            // class two
+
+            else if (rollNumber === '221621') {
+                window.location.href = '/two/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '221622') {
+                window.location.href = '/two/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '221623') {
+                window.location.href = '/two/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '221624') {
+                window.location.href = '/two/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '221625') {
+                window.location.href = '/two/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '221626') {
+                window.location.href = '/two/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '221627') {
+                window.location.href = '/two/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '221628') {
+                window.location.href = '/two/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '221629') {
+                window.location.href = '/two/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '221630') {
+                window.location.href = '/two/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '221631') {
+                window.location.href = '/two/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+
+             // class three
+
+             else if (rollNumber === '321621') {
+                window.location.href = '/three/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '321622') {
+                window.location.href = '/three/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '321623') {
+                window.location.href = '/three/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '321624') {
+                window.location.href = '/three/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '321625') {
+                window.location.href = '/three/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '321626') {
+                window.location.href = '/three/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '321627') {
+                window.location.href = '/three/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '321628') {
+                window.location.href = '/three/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '321629') {
+                window.location.href = '/three/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            
+            
+            
+            
+            // class four
+
+            else if (rollNumber === '421621') {
+                window.location.href = '/four/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '421622') {
+                window.location.href = '/four/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '421623') {
+                window.location.href = '/four/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '421624') {
+                window.location.href = '/four/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '421625') {
+                window.location.href = '/four/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '421626') {
+                window.location.href = '/four/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '421627') {
+                window.location.href = '/four/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '421628') {
+                window.location.href = '/four/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '421629') {
+                window.location.href = '/four/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '421630') {
+                window.location.href = '/four/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '421631') {
+                window.location.href = '/four/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '421632') {
+                window.location.href = '/four/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '421633') {
+                window.location.href = '/four/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '421634') {
+                window.location.href = '/four/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+
+            // class five
+
+            else if (rollNumber === '521621') {
+                window.location.href = '/five/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '521622') {
+                window.location.href = '/five/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '521623') {
+                window.location.href = '/five/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '521624') {
+                window.location.href = '/five/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '521625') {
+                window.location.href = '/five/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '521626') {
+                window.location.href = '/five/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '521627') {
+                window.location.href = '/five/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            
+
+            // class six
+
+            else if (rollNumber === '621621') {
+                window.location.href = '/six/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '621622') {
+                window.location.href = '/six/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '621623') {
+                window.location.href = '/six/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '621624') {
+                window.location.href = '/six/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '621625') {
+                window.location.href = '/six/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '621626') {
+                window.location.href = '/six/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+
+            // class seven
+
+            else if (rollNumber === '721621') {
+                window.location.href = '/seven/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '721622') {
+                window.location.href = '/seven/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '721623') {
+                window.location.href = '/seven/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '721624') {
+                window.location.href = '/seven/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '721625') {
+                window.location.href = '/seven/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            
+
+            // class pre nine
+
+            else if (rollNumber === '821621') {
+                window.location.href = '/eight/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '821622') {
+                window.location.href = '/eight/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '821623') {
+                window.location.href = '/eight/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '821624') {
+                window.location.href = '/eight/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '821625') {
+                window.location.href = '/eight/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '821626') {
+                window.location.href = '/eight/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '821627') {
+                window.location.href = '/eight/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '821628') {
+                window.location.href = '/eight/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if(rollNumber === '821629') {
+                window.location.href = '/eight/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            else if (rollNumber === '821630') {
+                window.location.href = '/eight/Assessment-Result-Sheet.png?name=' + encodeURIComponent(name);
+            }
+            
+        
+            
+            
+            
+
+            else {
+                alert('Invalid roll number');
+            }
+        });
+
+        
+        
+
+    </script>
+</body>
+</html>
